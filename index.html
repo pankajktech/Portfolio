@@ -13,16 +13,16 @@
     <title>Pankaj Kumar: Portfolio</title>
 </head>
 
-<body class="flex flex-col min-h-screen bg-slate-300 mx-60">
+<body class="flex flex-col min-h-screen bg-slate-300 md:mx-60 sm:mx-0">
     <!-- Navbar -->
 
-    <nav class="flex items-center justify-between font-bold p-4  bg-slate-900 text-white">
+    <nav class="flex items-center justify-between font-bold p-4  bg-slate-900 text-white ">
         <div class="">
-            <i class="fa-solid fa-code ml-4 mt-2 fa-2xl"></i>
+            <i class="fa-solid fa-code ml-4 mt-2 fa-2xl sm:m-0"></i>
 
         </div>
 
-        <ul class=" flex direction-column mr-8 text-lg">
+        <ul class=" flex direction-column mr-8 text-lg sm:m-0">
             <li><a href="#" class="m-4 hover:text-blue-300">Home</a></li>
             <li><a href="#skills" class="m-4 hover:text-blue-300">Skills</a></li>
             <li><a href="#projects" class="m-4 hover:text-blue-300">Projects</a></li>
@@ -31,21 +31,21 @@
     </nav>
 
     <!-- About Section -->
-    <div class="my-10">
+    <div class="">
         <!-- <h1 class="text-4xl text-center font-bold  bg-slate-800 text-white p-2">ABOUT</h1> -->
-        <div class="flex justify-center items-center flex-col h-100 mt-10 bg-blue-300 ">
+        <div class="flex justify-center items-center flex-col md:h-100 mt-10 bg-blue-300 ">
 
 
             <img src="./src/./img/Pankaj Kumar PFP.webp" alt="Pankaj Kumar"
-                class="h-40 shadow-lg hover:shadow-blue-700/50 rounded-full m-4">
+                class="md:h-40 h-60 shadow-lg hover:shadow-blue-700/50 rounded-full m-4">
 
             <div class="flex flex-col justify-center items-center bg-blue-300 p-10 shadow-lg hover:shadow-blue-600/50">
 
-                <h1 class="text-6xl font-bold text-blue-800">PANKAJ KUMAR</h1>
+                <h1 class="text-4xl md:text-6xl font-bold text-blue-800">PANKAJ KUMAR</h1>
 
-                <h2 class="text-3xl font-bold mt-4">Web Developer, Programmer</h2>
+                <h2 class="md:text-3xl font-bold mt-4">Web Developer, Programmer</h2>
 
-                <p class="text-lg my-8 text-justify">I am a Web Developer and Programmer. I am currently pursuing my
+                <p class="md:text-lg my-8 text-justify">I am a Web Developer and Programmer. I am currently pursuing my
                     B.Tech in
                     Computer
                     Science and Engineering from Marwadi Education Foundation's Group of Institutions (Affiliated to
@@ -55,11 +55,12 @@
                     always ready to learn new things.</p>
                 <div class="flex my-5 ">
                     <a href="https://www.linkedin.com/in/pankajktech/"
-                        class="flex items-center justify-center border-2 border-black w-60 h-10 m-5 text-2xl font-bold hover:bg-black hover:text-neutral-50  "><i
+                        class="flex items-center justify-center border-2 border-black md:w-60 h-10 m-5 md:text-2xl font-bold hover:bg-black hover:text-neutral-50 p-2 "><i
                             class="fa-brands fa-linkedin fa-l mr-2"></i> LINKEDIN <i
                             class="fa-solid fa-arrow-up-right-from-square fa-l m-2"></i> </a>
+
                     <a href="https://www.linkedin.com/in/pankajktech/" target="_blank"
-                        class="flex items-center justify-center border-2 border-black w-60 h-10 m-5 text-2xl font-bold hover:bg-black hover:text-neutral-50  "><i
+                        class="flex items-center justify-center border-2 border-black md:w-60 h-10 m-5 md:text-2xl font-bold hover:bg-black hover:text-neutral-50 p-2 "><i
                             class="fa-brands fa-github fa-l mr-2"></i> GITHUB <i
                             class="fa-solid fa-arrow-up-right-from-square fa-l m-2"></i> </a>
 
@@ -71,9 +72,9 @@
 
     <!-- Skills -->
 
-    <div class="my-20">
-        <h1 class="text-2xl font-bold text-center  bg-slate-800 text-white p-2" id="skills">SKILLS</h1>
-        <div class="flex justify-center flex-row m-20">
+    <div class="my-10 md:my-20">
+        <h1 class="md:text-2xl font-bold text-center  bg-slate-800 text-white p-2" id="skills">SKILLS</h1>
+        <div class="md:flex md:justify-center md:flex-row md:m-20 sm:grid grid-cols-1 ">
             <div
                 class="flex justify-center items-center border-2 border-black p-2 text-2xl font-bold hover:bg-black hover:text-neutral-50  m-4">
                 <i class="fa-brands fa-html5 fa-xl m-2"></i> HTMl5
@@ -255,7 +256,7 @@
     <div class="mb-10 bg-blue-300">
         <h1 class="text-2xl font-bold text-center  bg-slate-800 text-white p-2" id="contact">CONTACT ME</h1>
         <div class="w-full flex m-6">
-            <div class="w-1/2">
+            <div class="md:w-1/2">
                 <div class="my-6">
                     <input type="text" name="name" placeholder="Enter Your Name"
                         class="placeholder:italic placeholder:text-slate-600 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-blue-300 focus:ring-blborder-blue-300 focus:ring-1 sm:text-sm mx-2 mb-6">
@@ -276,7 +277,7 @@
 
 
             <div class="">
-                <img src="https://cdn-icons-png.flaticon.com/512/684/684808.png" alt="" class="w-1/2 mx-32 my-10 ">
+                <img src="https://cdn-icons-png.flaticon.com/512/684/684808.png" alt="" class="md:w-1/2 md:mx-32 md:my-10 w-0 ">
             </div>
         </div>
 
