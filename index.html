@@ -12,21 +12,26 @@
     <title>Portfolio: Pankaj</title>
 </head>
 
-<body class="bg-gradient-to-tr from-rose-200 via-rose-100 to-cyan-200 overflow-x-hidden">
+<body class="bg-slate-100">
     <!-- Navbar -->
 
-    <nav class="flex items-center justify-around font-bold p-2 xl:p-4  bg-slate-800 text-white sticky top-0 z-50">
-        <div class="invisible md:visible">
-            <a href="https://pankajktech.me/"> <i class="fa-solid fa-code xl:ml-4 mt-2 "></i></a>
-
+    <nav
+        class="flex md:flex-row items-center justify-between md:justify-around font-bold   bg-slate-800 text-white">
+        <div class="xl:ml-4 mx-6 p-3 sticky">
+            <a href="https://pankajktech.me/"> <i class="fa-solid fa-code"></i></a>
         </div>
 
-        <ul class=" flex direction-column xl:mr-8 xl:text-lg sticky">
-            <li><a href="#" class="m-4 hover:text-blue-300">Home</a></li>
-            <li><a href="#skills" class="m-4 hover:text-blue-300">Skills</a></li>
-            <li><a href="#projects" class="m-4 hover:text-blue-300">Projects</a></li>
-            <li><a href="#contact" class="m-4 hover:text-blue-300">Contact</a></li>
+        <ul
+            class="duration-300 ease-in-out flex flex-col md:flex-row items-center xl:mr-8 xl:text-lg absolute md:static md:h-auto w-full md:w-auto left-0 top-[-100%] bg-slate-800">
+            <li class="m-4 my-4 md:my-0 hover:text-blue-300"><a href="#">Home</a></li>
+            <li class="m-4 my-4 md:my-0 hover:text-blue-300"><a href="#skills">Skills</a></li>
+            <li class="m-4 my-4 md:my-0 hover:text-blue-300"><a href="#projects">Projects</a></li>
+            <li class="m-4 my-4 md:my-0 hover:text-blue-300"><a href="#contact">Contact</a></li>
         </ul>
+        <div class="md:hidden text-2xl cursor-pointer mr-2" onclick="onToggleMenu(th
+        )">
+            <ion-icon name="menu-outline" class="text-2xl mr-4 cursor-pointer" onclick="onToggleMenu(this)"></ion-icon>
+        </div>
     </nav>
 
     <!-- About Section -->
@@ -43,7 +48,8 @@
 
                 <h2 class="xl:text-3xl font-bold mt-2 lg:mt-4">Web Developer, Programmer</h2>
 
-                <p class="xl:text-lg my-3 lg:my-6 lg:mx-20 text-justify lg:text-justify">I am a Web Developer and Programmer. I am
+                <p class="xl:text-lg my-3 lg:my-6 lg:mx-20 text-justify lg:text-justify">I am a Web Developer and
+                    Programmer. I am
                     currently pursuing my
                     B.Tech in
                     Computer
@@ -327,6 +333,21 @@
     </footer>
 
     <!-- Script Section -->
+
+    <script>
+        function onToggleMenu(icon) {
+            icon.name = icon.name === 'menu-outline' ? 'close-outline' : 'menu-outline';
+            const nav = document.querySelector('ul');
+            nav.classList.toggle('top-[4%]');
+        }
+    </script>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
     <script src="https://kit.fontawesome.com/632ef732fd.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
