@@ -5,3 +5,4 @@ function onToggleMenu(icon) {
     const nav = document.querySelector('ul');
     nav.classList.toggle('top-[5%]');
 }
+
