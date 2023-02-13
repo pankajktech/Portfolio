@@ -1,6 +1,6 @@
 /* Path: src/components.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&family=Ubuntu&family=Yeseva+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +12,40 @@
         font-family: 'Bebas Neue', cursive;
         font-family: 'Ubuntu', sans-serif;
         font-family: 'Yeseva One', cursive;
+        font-family: 'Open Sans', sans-serif;
 
+    }
+}
+
+
+/* Name Writing animation */
+.writer-text {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    border-right: 2px solid rgb(0, 64, 255);
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 65%
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(0, 68, 255);
     }
 }
