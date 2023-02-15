@@ -1,6 +1,6 @@
 /* Path: src/components.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@800&family=Ubuntu&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Playfair+Display:wght@900&family=Ubuntu&family=Yeseva+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,10 +9,7 @@
 
 @layer base {
     html {
-        font-family: 'Bebas Neue', cursive;
         font-family: 'Ubuntu', sans-serif;
-        font-family: 'Yeseva One', cursive;
-        font-family: 'Open Sans', sans-serif;
 
     }
 }
