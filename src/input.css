@@ -1,6 +1,4 @@
-/* Path: src/components.css */
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +7,7 @@
 
 @layer base {
     html {
+        font-family: 'Roboto', sans-serif;
         font-family: 'Ubuntu', sans-serif;
     }
 }
