@@ -5,47 +5,11 @@
 @tailwind utilities;
 
 
-
-/* Font Section */
-
 @layer base {
     html {
         font-family: 'Nunito', sans-serif;
         font-family: 'Nunito Sans', sans-serif;
         font-family: 'Roboto', sans-serif;
         font-family: 'Ubuntu', sans-serif;
-    }
-}
-
-
-/* Name Writing animation */
-.writer-text {
-    display: inline-block;
-    overflow: hidden;
-    animation: typing 5s steps(30, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    border-right: 2px solid rgb(0, 64, 255);
-    box-sizing: border-box;
-}
-
-@keyframes typing {
-    from {
-        width: 0%
-    }
-
-    to {
-        width: 65%
-    }
-}
-
-@keyframes blink {
-
-    from,
-    to {
-        border-color: transparent
-    }
-
-    30% {
-        border-color: rgb(0, 68, 255);
     }
 }
