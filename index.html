@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./src/img/pankaj.png" type="image/x-icon" />
     <link rel="stylesheet" href="src/input.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="/src/index.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://css.gg/attachment.css" rel="stylesheet" />
@@ -20,11 +21,11 @@
     <title>Portfolio: Pankaj</title>
   </head>
 
-  <body class="bg-slate-900 font-[Nunito]">
+  <body class="bg-slate-900 font-[Poppins]">
     <!-- Navbar -->
 
     <nav
-      class="flex md:flex-row items-center justify-between md:justify-around font-bold text-white p-3 lg:sticky lg:top-0 lg:z-30 bg-slate-800"
+      class="flex md:flex-row items-center justify-between md:justify-around font-bold text-white p-3 lg:sticky lg:top-0 lg:z-30 shadow-sm shadow-slate-300 bg-slate-900"
     >
       <div class="">
         <a href="https://pankajktech.me/">
@@ -81,50 +82,52 @@
     <!-- About Section -->
 
     <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-rose-900">
-      <div
-        class="flex justify-center items-center flex-col md:flex-row-reverse xl:min-h-screen md:mx-20 xl:mx-52 text-slate-100"
-      >
-        <img
-          src="./src/./img/pankaj.png"
-          alt="Pankaj Kumar"
-          class="max-md:mt-5 lg:ml-20 h-32 w-32 lg:h-[400px] lg:w-[400px] hover:scale-105 duration-300 rounded-full"
-        />
-        <div class="flex flex-col p-6">
-          <h1 class="text-2xl lg:text-3xl font-mono">Hi, It's Me</h1>
-          <h1 class="text-sky-500 font-extrabold text-3xl lg:text-5xl">
-            PANKAJ KUMAR
-          </h1>
+      <div data-aos="zoom-in-down">
+        <div
+          class="flex justify-center items-center flex-col md:flex-row-reverse xl:min-h-screen md:mx-20 xl:mx-52 text-slate-100"
+        >
+          <img
+            src="./src/./img/pankaj.png"
+            alt="Pankaj Kumar"
+            class="max-md:mt-5 lg:ml-20 h-32 w-32 lg:h-[400px] lg:w-[400px] hover:scale-105 duration-300 rounded-full shadow-lg shadow-cyan-400/50"
+          />
+          <div class="flex flex-col p-6">
+            <h1 class="text-2xl font-mono">Hi, It's Me</h1>
+            <h1 class="text-cyan-400 font-extrabold text-3xl lg:text-6xl">
+              Pankaj Kumar
+            </h1>
 
-          <h2 class="lg:text-3xl font-bold my-5 font-mono">
-            I am a<span class="typing text-teal-500 ml-3"></span>
-          </h2>
+            <h2 class="lg:text-3xl font-bold my-5 font-mono">
+              I am a<span class="typing font-semibold text-teal-500 ml-3"></span>
+            </h2>
 
-          <p
-            class="xl:text-lg my-3 lg:my-6 text-justify lg:text-justify max-w-screen-sm"
-          >
-            I am a Web Developer and Programmer. I am currently pursuing my
-            B.Tech in Computer Science and Engineering from Marwadi Education
-            Foundation's Group of Institutions (Affiliated to Gujarat
-            Technological University). I am a self-taught programmer and I am
-            passionate about Web Development and Programming. I am also a tech
-            enthusiast and I love to learn new technologies and I am always
-            ready to learn new things.
-          </p>
-          <div class="flex my-10 justify-center">
-            <a
-              href="https://www.linkedin.com/in/pankajktech/"
-              class="rounded-sm flex items-center justify-center bg-slate-200 w-36 xl:w-60 h-10 m-1 mr-2 xl:m-5 text-lg xl:text-2xl font-bold text-slate-900 duration-300 p-2 shadow-md shadow-teal-400 hover:scale-90"
+            <p
+              class="xl:text-lg my-3 lg:my-6 text-justify lg:text-justify max-w-screen-sm"
             >
-              <i class="devicon-linkedin-plain colored mr-2 lg:m-4"></i>
-              LINKEDIN
-            </a>
+              I am a Web Developer and Programmer. I am currently pursuing my
+              B.Tech in Computer Science and Engineering from Marwadi Education
+              Foundation's Group of Institutions (Affiliated to Gujarat
+              Technological University). I am a self-taught programmer and I am
+              passionate about Web Development and Programming. I am also a tech
+              enthusiast and I love to learn new technologies and I am always
+              ready to learn new things.
+            </p>
+            <div class="flex my-5 justify-center">
+              <a
+                href="https://www.linkedin.com/in/pankajktech/"
+                class="rounded-sm flex items-center justify-center bg-slate-200 w-36 xl:w-40 h-10 m-1 mr-2 xl:m-5 text-xl text-slate-900 duration-300 p-2 drop-shadow-2xl shadow-lg shadow-slate-200/50 hover:scale-90"
+              >
+                <i class="devicon-linkedin-plain colored m-2"></i>
+                LINKEDIN
+              </a>
 
-            <a
-              href="https://drive.google.com/file/d/1Aa1GoCjaPd2WUMESN_8j6q9KfM1Vl-iL/view"
-              target="_blank"
-              class="rounded-sm flex items-center justify-center bg-slate-200 w-36 xl:w-60 h-10 m-1 ml-2 xl:m-5 text-lg xl:text-2xl font-bold text-slate-900 duration-300 p-2 shadow-md shadow-teal-400 hover:scale-90"
-              ><i class="fa-solid fa-paperclip m-2 lg:m-4"></i> RESUME
-            </a>
+              <a
+                href="https://drive.google.com/file/d/1Aa1GoCjaPd2WUMESN_8j6q9KfM1Vl-iL/view"
+                target="_blank"
+                class="rounded-sm flex items-center justify-center bg-slate-200 w-36 xl:w-40 h-10 m-1 ml-2 xl:m-5 text-xl text-slate-900 duration-300 p-2 drop-shadow-2xl shadow-lg shadow-slate-200/50 hover:scale-90"
+                ><i class="fa-solid fa-paperclip m-2"></i> RESUME
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -139,6 +142,7 @@
         Tech Stack
       </h1>
       <div
+        data-aos="zoom-in-down"
         class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 mt-20 mx-2 lg:mx-52"
       >
         <div
@@ -234,7 +238,10 @@
           Education
         </h1>
         <div class="mx-2 lg:mx-52 flex flex-col md:flex-row">
-          <div class="flex items-center p-4 mb-10 lg:mb-0 lg:mr-20">
+          <div
+            data-aos="zoom-in-right"
+            class="flex items-center p-4 mb-10 lg:mb-0 lg:mr-20"
+          >
             <div
               class="inline-flex items-center justify-center h-20 w-20 lg:w-36 lg:h-36 bg-transparent mr-6 cursor-pointer"
             >
@@ -244,7 +251,7 @@
             </div>
             <div>
               <h3
-                class="text-teal-500 text-lg lg:text-4xl font-bold leading-tight"
+                class="text-teal-500 text-lg lg:text-3xl font-semibold leading-tight"
               >
                 Computer Engineering (BE)
               </h3>
@@ -255,7 +262,7 @@
               <!-- <p class="my-2 lg:text-lg">CGP: 7.0</p> -->
             </div>
           </div>
-          <div class="flex items-center p-4">
+          <div data-aos="zoom-in-left" class="flex items-center p-4">
             <div
               class="inline-flex items-center justify-center h-20 w-20 lg:w-36 lg:h-36 bg-transparent mr-6 cursor-pointer"
             >
@@ -265,9 +272,9 @@
             </div>
             <div>
               <h3
-                class="text-teal-500 text-lg lg:text-4xl font-bold leading-tight"
+                class="text-teal-500 text-lg lg:text-3xl font-semibold leading-tight"
               >
-                Intermediate (Science)
+                12th (Science)
               </h3>
               <p class="my-2 lg:text-lg">Bihar State Education Board</p>
               <p class="my-2 lg:text-lg">2018 - 2020</p>
@@ -287,15 +294,18 @@
         Projects
       </h1>
 
-      <div class="my-20 flex flex-col gap-10 justify-center items-center lg:mx-52">
+      <div
+        class="my-20 flex flex-col gap-10 justify-center items-center lg:mx-52"
+      >
         <!-- project country -->
         <div
-          class="bg-slate-800 p-5 flex flex-col justify-between lg:h-96 w-[90%] lg:flex-row"
+          data-aos="zoom-in-left"
+          class="bg-slate-800 p-5 flex flex-col justify-between drop-shadow-2xl lg:h-96 w-[90%] lg:flex-row"
         >
           <img
             src="./src/img/project/countriesAPI.webp"
             alt="thehindu-clone"
-            class="rounded-lg h-60 lg:h-80 my-auto lg:w-1/2 hover:scale-95 duration-500"
+            class="rounded-lg h-52 lg:h-80 my-auto lg:w-1/2 hover:scale-95 duration-500"
           />
 
           <div class="flex flex-col justify-center max-md:m-5 lg:mx-10">
@@ -341,12 +351,13 @@
         <!-- project The Hindu Clone -->
 
         <div
-          class="bg-slate-800 p-5 flex flex-col justify-between lg:h-96 w-[90%] lg:flex-row-reverse"
+          data-aos="zoom-in-right"
+          class="bg-slate-800 p-5 flex flex-col justify-between drop-shadow-2xl lg:h-96 w-[90%] lg:flex-row-reverse"
         >
           <img
             src="./src/./img/project/TheHindu.webp"
             alt="thehindu-clone"
-            class="rounded-lg h-60 lg:h-80 my-auto lg:w-1/2 hover:scale-95 duration-500"
+            class="rounded-lg h-52 lg:h-80 my-auto lg:w-1/2 hover:scale-95 duration-500"
           />
 
           <div class="flex flex-col justify-center max-md:m-5 lg:mx-10">
@@ -389,12 +400,13 @@
         <!-- project Calculator -->
 
         <div
-          class="bg-slate-800 p-5 flex flex-col justify-between lg:h-96 w-[90%] lg:flex-row"
+          data-aos="zoom-in-down"
+          class="bg-slate-800 p-5 flex flex-col justify-between drop-shadow-2xl lg:h-96 w-[90%] lg:flex-row"
         >
           <img
             src="./src/./img/project/calculator.webp"
             alt="thehindu-clone"
-            class="rounded-lg h-60 lg:h-80 my-auto lg:w-1/2 hover:scale-95 duration-500"
+            class="rounded-lg h-52 lg:h-80 my-auto lg:w-1/2 hover:scale-95 duration-500"
           />
 
           <div class="flex flex-col justify-center max-md:m-5 lg:mx-10">
@@ -440,7 +452,7 @@
     </div>
 
     <!-- Contact section -->
-    <div class="" id="contact">
+    <div data-aos="zoom-in-down" class="" id="contact">
       <h1
         class="text-xl xl:text-3xl font-bold text-center lg:text-left lg:ml-60 text-gray-200 border-b-4 border-b-pink-400 w-48 mx-auto my-10"
       >
@@ -551,7 +563,7 @@
                 <input
                   type="submit"
                   value="Send"
-                  class="rounded-full text-2xl bg-teal-500 text-slate-900 w-[150px] lg:w-40 h-10 mx-auto my-6 cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
+                  class="rounded-full text-2xl bg-teal-400 shadow-lg shadow-teal-400/50 text-slate-900 w-[200px] lg:w-40 h-10 mx-auto my-6 cursor-pointer hover:scale-90 transition duration-300 ease-in-out"
                 />
               </div>
             </div>
@@ -563,12 +575,13 @@
     <!-- Footer Section -->
 
     <footer
-      class="text-center bg-slate-800 lg:bg-slate-800 text-white xl:text-lg p-3"
+      class="text-center bg-slate-900 shadow-md shadow-slate-100 text-white xl:text-lg p-3"
     >
       <p class="text-xl">Made in &hearts; with Pankaj Kumar</p>
     </footer>
 
     <!-- Script Section -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script
       type="module"
@@ -585,6 +598,7 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script>
+      AOS.init(1000);
       var typeData = new Typed(".typing", {
         strings: [
           "Web Developer",

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,9 +7,6 @@
 
 @layer base {
     html {
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Nunito Sans', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 }
